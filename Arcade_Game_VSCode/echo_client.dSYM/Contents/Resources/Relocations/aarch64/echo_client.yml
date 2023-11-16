@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/jordanlazan/Desktop/CPP_Projects/Arcade_Game1/Arcade_Game_VSCode/echo_client'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z10StartTimerP5Timerf, symObjAddr: 0x0, symBinAddr: 0x100002C14, symSize: 0x38 }
+  - { offsetInCU: 0x2CC8, offset: 0x2CC8, size: 0x8, addend: 0x0, symName: __Z10StartTimerP5Timerf, symObjAddr: 0x0, symBinAddr: 0x100002C14, symSize: 0x38 }
+  - { offsetInCU: 0x2CFE, offset: 0x2CFE, size: 0x8, addend: 0x0, symName: __Z11UpdateTimerP5Timer, symObjAddr: 0x38, symBinAddr: 0x100002C4C, symSize: 0x64 }
+  - { offsetInCU: 0x2D26, offset: 0x2D26, size: 0x8, addend: 0x0, symName: __Z9TimerDoneP5Timer, symObjAddr: 0x9C, symBinAddr: 0x100002CB0, symSize: 0x4C }
+  - { offsetInCU: 0x2D52, offset: 0x2D52, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xE8, symBinAddr: 0x100002CFC, symSize: 0xEF8 }
+...

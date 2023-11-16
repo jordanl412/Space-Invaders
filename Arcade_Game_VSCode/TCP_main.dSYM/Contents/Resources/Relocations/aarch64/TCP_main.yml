@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/jordanlazan/Desktop/CPP_Projects/Arcade_Game1/Arcade_Game_VSCode/TCP_main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z10StartTimerP5Timerf, symObjAddr: 0x0, symBinAddr: 0x100002090, symSize: 0x38 }
+  - { offsetInCU: 0x2CB2, offset: 0x2CB2, size: 0x8, addend: 0x0, symName: __Z10StartTimerP5Timerf, symObjAddr: 0x0, symBinAddr: 0x100002090, symSize: 0x38 }
+  - { offsetInCU: 0x2CE8, offset: 0x2CE8, size: 0x8, addend: 0x0, symName: __Z11UpdateTimerP5Timer, symObjAddr: 0x38, symBinAddr: 0x1000020C8, symSize: 0x64 }
+  - { offsetInCU: 0x2D10, offset: 0x2D10, size: 0x8, addend: 0x0, symName: __Z9TimerDoneP5Timer, symObjAddr: 0x9C, symBinAddr: 0x10000212C, symSize: 0x4C }
+  - { offsetInCU: 0x2D3C, offset: 0x2D3C, size: 0x8, addend: 0x0, symName: __Z13sendGameStatei9GameState, symObjAddr: 0xE8, symBinAddr: 0x100002178, symSize: 0x34 }
+  - { offsetInCU: 0x2D73, offset: 0x2D73, size: 0x8, addend: 0x0, symName: __Z16receiveGameStatei9GameState, symObjAddr: 0x11C, symBinAddr: 0x1000021AC, symSize: 0x34 }
+  - { offsetInCU: 0x2DAA, offset: 0x2DAA, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x150, symBinAddr: 0x1000021E0, symSize: 0x1A78 }
+...

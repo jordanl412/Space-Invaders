@@ -1,0 +1,37 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/jordanlazan/Desktop/CPP_Projects/Arcade_Game1/Arcade_Game_VSCode/copy_of_new_clean_main_server'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z13LoadResourcesR13GameResources, symObjAddr: 0x0, symBinAddr: 0x100000DE0, symSize: 0x20C }
+  - { offsetInCU: 0x90, offset: 0x90, size: 0x8, addend: 0x0, symName: _local_game_state, symObjAddr: 0xD6C0, symBinAddr: 0x100008188, symSize: 0x0 }
+  - { offsetInCU: 0x2FE, offset: 0x2FE, size: 0x8, addend: 0x0, symName: _resources, symObjAddr: 0xD538, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x312B, offset: 0x312B, size: 0x8, addend: 0x0, symName: __Z13LoadResourcesR13GameResources, symObjAddr: 0x0, symBinAddr: 0x100000DE0, symSize: 0x20C }
+  - { offsetInCU: 0x3153, offset: 0x3153, size: 0x8, addend: 0x0, symName: __Z15UnloadResourcesR13GameResources, symObjAddr: 0x20C, symBinAddr: 0x100000FEC, symSize: 0x180 }
+  - { offsetInCU: 0x317B, offset: 0x317B, size: 0x8, addend: 0x0, symName: __Z16InitPlayerEntityR6Entity, symObjAddr: 0x38C, symBinAddr: 0x10000116C, symSize: 0x88 }
+  - { offsetInCU: 0x31A3, offset: 0x31A3, size: 0x8, addend: 0x0, symName: __Z17InitPowerupEntityR6Entity, symObjAddr: 0x414, symBinAddr: 0x1000011F4, symSize: 0xBC }
+  - { offsetInCU: 0x31CB, offset: 0x31CB, size: 0x8, addend: 0x0, symName: __Z20InitProjectileEntityR6Entity, symObjAddr: 0x4D0, symBinAddr: 0x1000012B0, symSize: 0x78 }
+  - { offsetInCU: 0x31F3, offset: 0x31F3, size: 0x8, addend: 0x0, symName: __Z17InitEnemyEntitiesR6Entity, symObjAddr: 0x548, symBinAddr: 0x100001328, symSize: 0xB8 }
+  - { offsetInCU: 0x321B, offset: 0x321B, size: 0x8, addend: 0x0, symName: __Z20RespawnEnemyPositionR6Entity, symObjAddr: 0x600, symBinAddr: 0x1000013E0, symSize: 0x64 }
+  - { offsetInCU: 0x3243, offset: 0x3243, size: 0x8, addend: 0x0, symName: __Z18InitLocalGameStateR9GameState, symObjAddr: 0x664, symBinAddr: 0x100001444, symSize: 0x134 }
+  - { offsetInCU: 0x32A3, offset: 0x32A3, size: 0x8, addend: 0x0, symName: __Z38GenerateServerPacketFromLocalGameStateR14LightGameStateR9GameState, symObjAddr: 0x798, symBinAddr: 0x100001578, symSize: 0x200 }
+  - { offsetInCU: 0x3311, offset: 0x3311, size: 0x8, addend: 0x0, symName: __Z35GenerateClientStateFromServerPacketR9GameStateR14LightGameState, symObjAddr: 0x998, symBinAddr: 0x100001778, symSize: 0x200 }
+  - { offsetInCU: 0x337F, offset: 0x337F, size: 0x8, addend: 0x0, symName: __Z15MovePlayerRightR6Entity, symObjAddr: 0xB98, symBinAddr: 0x100001978, symSize: 0x58 }
+  - { offsetInCU: 0x33A7, offset: 0x33A7, size: 0x8, addend: 0x0, symName: __Z14MovePlayerLeftR6Entity, symObjAddr: 0xBF0, symBinAddr: 0x1000019D0, symSize: 0x44 }
+  - { offsetInCU: 0x33CF, offset: 0x33CF, size: 0x8, addend: 0x0, symName: __Z15ShootProjectileP6EntityRS_Ri, symObjAddr: 0xC34, symBinAddr: 0x100001A14, symSize: 0x100 }
+  - { offsetInCU: 0x342F, offset: 0x342F, size: 0x8, addend: 0x0, symName: __Z10StartTimerP5Timerf, symObjAddr: 0xD34, symBinAddr: 0x100001B14, symSize: 0x38 }
+  - { offsetInCU: 0x3468, offset: 0x3468, size: 0x8, addend: 0x0, symName: __Z11UpdateTimerP5Timer, symObjAddr: 0xD6C, symBinAddr: 0x100001B4C, symSize: 0x64 }
+  - { offsetInCU: 0x3492, offset: 0x3492, size: 0x8, addend: 0x0, symName: __Z9TimerDoneP5Timer, symObjAddr: 0xDD0, symBinAddr: 0x100001BB0, symSize: 0x60 }
+  - { offsetInCU: 0x34C0, offset: 0x34C0, size: 0x8, addend: 0x0, symName: __Z18PowerupTimerActiveR6Entity, symObjAddr: 0xE30, symBinAddr: 0x100001C10, symSize: 0x28 }
+  - { offsetInCU: 0x34EA, offset: 0x34EA, size: 0x8, addend: 0x0, symName: __Z16PowerupTimerDoneR6Entity, symObjAddr: 0xE58, symBinAddr: 0x100001C38, symSize: 0x24 }
+  - { offsetInCU: 0x3514, offset: 0x3514, size: 0x8, addend: 0x0, symName: __Z24DrawTextureWithSourceRecR6Entity, symObjAddr: 0xE7C, symBinAddr: 0x100001C5C, symSize: 0xD8 }
+  - { offsetInCU: 0x354D, offset: 0x354D, size: 0x8, addend: 0x0, symName: __Z18calculate_distance7Vector2S_, symObjAddr: 0xF54, symBinAddr: 0x100001D34, symSize: 0x64 }
+  - { offsetInCU: 0x35A8, offset: 0x35A8, size: 0x8, addend: 0x0, symName: __Z4sqrtB7v160006f, symObjAddr: 0xFB8, symBinAddr: 0x100001D98, symSize: 0x18 }
+  - { offsetInCU: 0x35D6, offset: 0x35D6, size: 0x8, addend: 0x0, symName: __Z19get_center_location6Entity, symObjAddr: 0xFD0, symBinAddr: 0x100001DB0, symSize: 0x48 }
+  - { offsetInCU: 0x3605, offset: 0x3605, size: 0x8, addend: 0x0, symName: __Z34calculate_direction_to_destinationR6EntityR7Vector2, symObjAddr: 0x1018, symBinAddr: 0x100001DF8, symSize: 0x74 }
+  - { offsetInCU: 0x3660, offset: 0x3660, size: 0x8, addend: 0x0, symName: __Z6run_aiR13AI_BlackboardiR5TimerS2_P6EntityS4_, symObjAddr: 0x108C, symBinAddr: 0x100001E6C, symSize: 0x998 }
+  - { offsetInCU: 0x3937, offset: 0x3937, size: 0x8, addend: 0x0, symName: __Z10RenderGameP6EntityS0_RS_S1_S1_R13GameResourcesR13AI_Blackboard, symObjAddr: 0x1A5C, symBinAddr: 0x10000283C, symSize: 0x574 }
+  - { offsetInCU: 0x39F8, offset: 0x39F8, size: 0x8, addend: 0x0, symName: __Z22createSocketConnectionPKcb11sockaddr_in, symObjAddr: 0x1FD0, symBinAddr: 0x100002DB0, symSize: 0x1A0 }
+  - { offsetInCU: 0x3A71, offset: 0x3A71, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2170, symBinAddr: 0x100002F50, symSize: 0xB7C }
+  - { offsetInCU: 0x3C90, offset: 0x3C90, size: 0x8, addend: 0x0, symName: __ZN13AI_BlackboardC1ER6EntityS1_16HighLevelAIState15LowLevelAIState, symObjAddr: 0x2CEC, symBinAddr: 0x100003ACC, symSize: 0x4C }
+  - { offsetInCU: 0x3CF4, offset: 0x3CF4, size: 0x8, addend: 0x0, symName: __ZN13AI_BlackboardC2ER6EntityS1_16HighLevelAIState15LowLevelAIState, symObjAddr: 0x2D38, symBinAddr: 0x100003B18, symSize: 0x58 }
+...

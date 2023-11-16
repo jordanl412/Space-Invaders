@@ -1,0 +1,26 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/jordanlazan/Desktop/CPP_Projects/Arcade_Game1/Arcade_Game_VSCode/clean_main_client'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z10StartTimerP5Timerf, symObjAddr: 0x0, symBinAddr: 0x100002648, symSize: 0x38 }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _game_over, symObjAddr: 0x94A4, symBinAddr: 0x10000800C, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0x5B, size: 0x8, addend: 0x0, symName: _pause_button, symObjAddr: 0x94A5, symBinAddr: 0x10000800D, symSize: 0x0 }
+  - { offsetInCU: 0x70, offset: 0x70, size: 0x8, addend: 0x0, symName: _lives_left, symObjAddr: 0x16BC, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x8C, offset: 0x8C, size: 0x8, addend: 0x0, symName: _enemies_killed, symObjAddr: 0x94A8, symBinAddr: 0x100008010, symSize: 0x0 }
+  - { offsetInCU: 0xA1, offset: 0xA1, size: 0x8, addend: 0x0, symName: _active_enemies, symObjAddr: 0x16C0, symBinAddr: 0x100008004, symSize: 0x0 }
+  - { offsetInCU: 0xB6, offset: 0xB6, size: 0x8, addend: 0x0, symName: _active_projectiles, symObjAddr: 0x94AC, symBinAddr: 0x100008014, symSize: 0x0 }
+  - { offsetInCU: 0xCB, offset: 0xCB, size: 0x8, addend: 0x0, symName: _victory, symObjAddr: 0x94B0, symBinAddr: 0x100008018, symSize: 0x0 }
+  - { offsetInCU: 0xE0, offset: 0xE0, size: 0x8, addend: 0x0, symName: _opener_screen, symObjAddr: 0x16C4, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0xF5, offset: 0xF5, size: 0x8, addend: 0x0, symName: _help, symObjAddr: 0x94B1, symBinAddr: 0x100008019, symSize: 0x0 }
+  - { offsetInCU: 0x10A, offset: 0x10A, size: 0x8, addend: 0x0, symName: _player_one_powered_up, symObjAddr: 0x94B2, symBinAddr: 0x10000801A, symSize: 0x0 }
+  - { offsetInCU: 0x11F, offset: 0x11F, size: 0x8, addend: 0x0, symName: _player_two_powered_up, symObjAddr: 0x94B3, symBinAddr: 0x10000801B, symSize: 0x0 }
+  - { offsetInCU: 0x134, offset: 0x134, size: 0x8, addend: 0x0, symName: _right_key_down, symObjAddr: 0x94B4, symBinAddr: 0x10000801C, symSize: 0x0 }
+  - { offsetInCU: 0x149, offset: 0x149, size: 0x8, addend: 0x0, symName: _left_key_down, symObjAddr: 0x94B5, symBinAddr: 0x10000801D, symSize: 0x0 }
+  - { offsetInCU: 0x15E, offset: 0x15E, size: 0x8, addend: 0x0, symName: _space_key_down, symObjAddr: 0x94B6, symBinAddr: 0x10000801E, symSize: 0x0 }
+  - { offsetInCU: 0x173, offset: 0x173, size: 0x8, addend: 0x0, symName: _wants_to_play, symObjAddr: 0x94B7, symBinAddr: 0x10000801F, symSize: 0x0 }
+  - { offsetInCU: 0x188, offset: 0x188, size: 0x8, addend: 0x0, symName: _play_again, symObjAddr: 0x94B8, symBinAddr: 0x100008020, symSize: 0x0 }
+  - { offsetInCU: 0x2E30, offset: 0x2E30, size: 0x8, addend: 0x0, symName: __Z10StartTimerP5Timerf, symObjAddr: 0x0, symBinAddr: 0x100002648, symSize: 0x38 }
+  - { offsetInCU: 0x2E66, offset: 0x2E66, size: 0x8, addend: 0x0, symName: __Z11UpdateTimerP5Timer, symObjAddr: 0x38, symBinAddr: 0x100002680, symSize: 0x64 }
+  - { offsetInCU: 0x2E8E, offset: 0x2E8E, size: 0x8, addend: 0x0, symName: __Z9TimerDoneP5Timer, symObjAddr: 0x9C, symBinAddr: 0x1000026E4, symSize: 0x60 }
+  - { offsetInCU: 0x2EBA, offset: 0x2EBA, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xFC, symBinAddr: 0x100002744, symSize: 0x15C0 }
+...

@@ -1,0 +1,30 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/jordanlazan/Desktop/CPP_Projects/Arcade_Game1/Arcade_Game_VSCode/new_clean_main_client'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z13LoadResourcesR13GameResources, symObjAddr: 0x0, symBinAddr: 0x100002418, symSize: 0x20C }
+  - { offsetInCU: 0x90, offset: 0x90, size: 0x8, addend: 0x0, symName: _local_game_state, symObjAddr: 0xA738, symBinAddr: 0x100008188, symSize: 0x0 }
+  - { offsetInCU: 0x2FE, offset: 0x2FE, size: 0x8, addend: 0x0, symName: _resources, symObjAddr: 0xA5B0, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x30D9, offset: 0x30D9, size: 0x8, addend: 0x0, symName: __Z13LoadResourcesR13GameResources, symObjAddr: 0x0, symBinAddr: 0x100002418, symSize: 0x20C }
+  - { offsetInCU: 0x3101, offset: 0x3101, size: 0x8, addend: 0x0, symName: __Z15UnloadResourcesR13GameResources, symObjAddr: 0x20C, symBinAddr: 0x100002624, symSize: 0x180 }
+  - { offsetInCU: 0x3129, offset: 0x3129, size: 0x8, addend: 0x0, symName: __Z16InitPlayerEntityR6Entity, symObjAddr: 0x38C, symBinAddr: 0x1000027A4, symSize: 0x88 }
+  - { offsetInCU: 0x3151, offset: 0x3151, size: 0x8, addend: 0x0, symName: __Z17InitPowerupEntityR6Entity, symObjAddr: 0x414, symBinAddr: 0x10000282C, symSize: 0xBC }
+  - { offsetInCU: 0x3179, offset: 0x3179, size: 0x8, addend: 0x0, symName: __Z20InitProjectileEntityR6Entity, symObjAddr: 0x4D0, symBinAddr: 0x1000028E8, symSize: 0x78 }
+  - { offsetInCU: 0x31A1, offset: 0x31A1, size: 0x8, addend: 0x0, symName: __Z17InitEnemyEntitiesR6Entity, symObjAddr: 0x548, symBinAddr: 0x100002960, symSize: 0xB8 }
+  - { offsetInCU: 0x31C9, offset: 0x31C9, size: 0x8, addend: 0x0, symName: __Z20RespawnEnemyPositionR6Entity, symObjAddr: 0x600, symBinAddr: 0x100002A18, symSize: 0x64 }
+  - { offsetInCU: 0x31F1, offset: 0x31F1, size: 0x8, addend: 0x0, symName: __Z18InitLocalGameStateR9GameState, symObjAddr: 0x664, symBinAddr: 0x100002A7C, symSize: 0x134 }
+  - { offsetInCU: 0x3251, offset: 0x3251, size: 0x8, addend: 0x0, symName: __Z38GenerateServerPacketFromLocalGameStateR14LightGameStateR9GameState, symObjAddr: 0x798, symBinAddr: 0x100002BB0, symSize: 0x200 }
+  - { offsetInCU: 0x32BF, offset: 0x32BF, size: 0x8, addend: 0x0, symName: __Z35GenerateClientStateFromServerPacketR9GameStateR14LightGameState, symObjAddr: 0x998, symBinAddr: 0x100002DB0, symSize: 0x200 }
+  - { offsetInCU: 0x332D, offset: 0x332D, size: 0x8, addend: 0x0, symName: __Z15MovePlayerRightR6Entity, symObjAddr: 0xB98, symBinAddr: 0x100002FB0, symSize: 0x58 }
+  - { offsetInCU: 0x3355, offset: 0x3355, size: 0x8, addend: 0x0, symName: __Z14MovePlayerLeftR6Entity, symObjAddr: 0xBF0, symBinAddr: 0x100003008, symSize: 0x44 }
+  - { offsetInCU: 0x337D, offset: 0x337D, size: 0x8, addend: 0x0, symName: __Z15ShootProjectileP6EntityRS_Ri, symObjAddr: 0xC34, symBinAddr: 0x10000304C, symSize: 0x100 }
+  - { offsetInCU: 0x33DD, offset: 0x33DD, size: 0x8, addend: 0x0, symName: __Z10StartTimerP5Timerf, symObjAddr: 0xD34, symBinAddr: 0x10000314C, symSize: 0x38 }
+  - { offsetInCU: 0x3416, offset: 0x3416, size: 0x8, addend: 0x0, symName: __Z11UpdateTimerP5Timer, symObjAddr: 0xD6C, symBinAddr: 0x100003184, symSize: 0x64 }
+  - { offsetInCU: 0x3440, offset: 0x3440, size: 0x8, addend: 0x0, symName: __Z9TimerDoneP5Timer, symObjAddr: 0xDD0, symBinAddr: 0x1000031E8, symSize: 0x60 }
+  - { offsetInCU: 0x346E, offset: 0x346E, size: 0x8, addend: 0x0, symName: __Z18PowerupTimerActiveR6Entity, symObjAddr: 0xE30, symBinAddr: 0x100003248, symSize: 0x28 }
+  - { offsetInCU: 0x3498, offset: 0x3498, size: 0x8, addend: 0x0, symName: __Z16PowerupTimerDoneR6Entity, symObjAddr: 0xE58, symBinAddr: 0x100003270, symSize: 0x24 }
+  - { offsetInCU: 0x34C2, offset: 0x34C2, size: 0x8, addend: 0x0, symName: __Z24DrawTextureWithSourceRecR6Entity, symObjAddr: 0xE7C, symBinAddr: 0x100003294, symSize: 0xD8 }
+  - { offsetInCU: 0x34FB, offset: 0x34FB, size: 0x8, addend: 0x0, symName: __Z10RenderGameP6EntityS0_RS_S1_S1_R13GameResources, symObjAddr: 0xF54, symBinAddr: 0x10000336C, symSize: 0x470 }
+  - { offsetInCU: 0x35AC, offset: 0x35AC, size: 0x8, addend: 0x0, symName: __Z22createSocketConnectionPKcb11sockaddr_in, symObjAddr: 0x13C4, symBinAddr: 0x1000037DC, symSize: 0x1A0 }
+  - { offsetInCU: 0x3625, offset: 0x3625, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1564, symBinAddr: 0x10000397C, symSize: 0x294 }
+...

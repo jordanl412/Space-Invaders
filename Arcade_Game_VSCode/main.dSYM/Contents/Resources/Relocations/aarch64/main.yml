@@ -1,0 +1,18 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/jordanlazan/Desktop/CPP_Projects/Arcade_Game1/Arcade_Game_VSCode/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z10StartTimerP5Timerf, symObjAddr: 0x0, symBinAddr: 0x1000020A4, symSize: 0x38 }
+  - { offsetInCU: 0x78, offset: 0x78, size: 0x8, addend: 0x0, symName: __ZL5pause, symObjAddr: 0x954C, symBinAddr: 0x10000800C, symSize: 0x0 }
+  - { offsetInCU: 0x98, offset: 0x98, size: 0x8, addend: 0x0, symName: __ZL13opener_screen, symObjAddr: 0x1D74, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0xB1, offset: 0xB1, size: 0x8, addend: 0x0, symName: __ZL9game_over, symObjAddr: 0x954D, symBinAddr: 0x10000800D, symSize: 0x0 }
+  - { offsetInCU: 0xCA, offset: 0xCA, size: 0x8, addend: 0x0, symName: __ZL10lives_left, symObjAddr: 0x1D78, symBinAddr: 0x100008004, symSize: 0x0 }
+  - { offsetInCU: 0xE3, offset: 0xE3, size: 0x8, addend: 0x0, symName: __ZL14enemies_killed, symObjAddr: 0x9550, symBinAddr: 0x100008010, symSize: 0x0 }
+  - { offsetInCU: 0xFC, offset: 0xFC, size: 0x8, addend: 0x0, symName: __ZL14active_enemies, symObjAddr: 0x1D7C, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0x115, offset: 0x115, size: 0x8, addend: 0x0, symName: __ZL7victory, symObjAddr: 0x9554, symBinAddr: 0x100008014, symSize: 0x0 }
+  - { offsetInCU: 0x12E, offset: 0x12E, size: 0x8, addend: 0x0, symName: __ZL4help, symObjAddr: 0x9555, symBinAddr: 0x100008015, symSize: 0x0 }
+  - { offsetInCU: 0x2D7A, offset: 0x2D7A, size: 0x8, addend: 0x0, symName: __Z10StartTimerP5Timerf, symObjAddr: 0x0, symBinAddr: 0x1000020A4, symSize: 0x38 }
+  - { offsetInCU: 0x2DB0, offset: 0x2DB0, size: 0x8, addend: 0x0, symName: __Z11UpdateTimerP5Timer, symObjAddr: 0x38, symBinAddr: 0x1000020DC, symSize: 0x64 }
+  - { offsetInCU: 0x2DD8, offset: 0x2DD8, size: 0x8, addend: 0x0, symName: __Z9TimerDoneP5Timer, symObjAddr: 0x9C, symBinAddr: 0x100002140, symSize: 0x4C }
+  - { offsetInCU: 0x2E04, offset: 0x2E04, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xE8, symBinAddr: 0x10000218C, symSize: 0x1AEC }
+...
